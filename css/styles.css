@@ -6,13 +6,40 @@ html {
 * {
     font-family: Quicksand;
     font-weight: 400;
+    color: #4d4949;
+}
+
+h1 {
+    font-size: 5em;
 }
 
 ul {
     list-style: none;
 }
 
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+a {
+    color: #4d4949;
+}
+
+nav ul li a:hover {
+    text-transform: uppercase;
+}
+
 embed {
     display: block;
     margin: auto;
+}
+
+#current-page {
+    font-weight: 600;
+    text-decoration: underline;
+    text-transform: uppercase;
 }
